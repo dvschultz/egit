@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "egit",
+  "version": "0.0.1",
+  //"default_locale": "en",
+  "description": "Send editorial markups to git issues",
+  "icons" {
+    "19": "icon19.png",
+    "38": "icon38.png"
+  },
+
+  "browser_action": {
+    "default_icon": "icon19.png"
+  },
+
+  "background": {
+    "scripts": ["event.js"],
+    "persistent": false
+  },
+  
+  "permissions": ["<all_urls>"]
+}
